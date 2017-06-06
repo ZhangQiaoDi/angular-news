@@ -1,0 +1,13 @@
+<div class="weui-panel" style="margin-top: 53px;">
+    <div class="weui-panel__bd">
+        <div class="weui-media-box weui-media-box_text" ng-repeat="m in ms|limitTo:5:page">
+            <h4 class="weui-media-box__title">{{m.title}}</h4>
+            <p class="weui-media-box__desc" style="-webkit-line-clamp: 6;">{{m.desc}}</p>
+            <ul class="weui-media-box__info">
+                <li class="weui-media-box__info__meta">{{m.source}}</li>
+                <li class="weui-media-box__info__meta">{{m.pubDate}}</li>
+                <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">{{m.channelName}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

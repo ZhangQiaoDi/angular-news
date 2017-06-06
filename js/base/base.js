@@ -1,0 +1,1 @@
+var app = angular.module('newsApp',['ui.router','router','controllers','directives','services','filters']);	

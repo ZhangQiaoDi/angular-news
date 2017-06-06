@@ -1,0 +1,22 @@
+<div>
+<!--	<p>{{name}}</p>-->
+	<section class="top-title">
+		<a ng-href="#/index/recommend" class="back"></a>
+		<h1 class="title">头条搜索</h1>
+	</section>
+	<div class="page searchbar js_show">
+		<div class="page__bd">
+			<!--<a href="javascript:;" class="weui-btn weui-btn_primary">点击展现searchBar</a>-->
+			<div class="weui-search-bar" id="searchBar">
+				<form class="weui-search-bar__form ng-pristine ng-invalid ng-invalid-required">
+					<div class="weui-search-bar__box">
+						<i class="weui-icon-search"></i>
+						<input type="search" class="weui-search-bar__input ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" id="searchInput" ng-model="search" placeholder="搜索" required="">
+						<a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+					</div>
+				</form>
+				<a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,114 @@
+	.has_header {
+		margin-top: 45px;
+	}
+	
+	.weui-wheader {
+		bottom: inherit;
+		top: 0;
+		height: 44px;
+		line-height: 44px;
+		text-align: center;
+	}
+	
+	.weui-wheader p {
+		width: 100%;
+	}
+	
+	.top-title {
+	    position: relative;
+	    width: 100%;
+	    height: 44px;
+	    color: #fff;
+	    background-color: #d43d3d;
+	}
+	.top-title .back {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 50px;
+	    height: 44px;
+	    background: url(../images/title-left.png) 50% no-repeat;
+	    background-size: 20px;
+	}
+	.top-title .title {
+	    height: 44px;
+	    line-height: 44px;
+	    text-align: center;
+	    color: #fff;
+	    width: 150px;
+	    margin: 0 auto;
+	    font-size: 21px;
+	    font-weight: 700;
+	}
+	.top-title .refresh {
+	    line-height: 28px;
+	    position: relative;
+	    display: block;
+	    width: 130px;
+	    height: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	    background-image: url(http://mini.eastday.com/toutiaoh5/img/top_title.png);
+	    background-size: 84px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	}
+	.top-title .refresh span {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    width: 24px;
+	    height: 100%;
+	    background: url(../images/refurbish.png) no-repeat center center;
+	    background-size: 14px;
+	}
+	.top-title .search {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    width: 50px;
+	    height: 44px;
+	    background: url(../images/seek.png) no-repeat 50%;
+	    background-size: 26px;
+	}
+	
+	.swiper-container {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	
+	.swiper-img {
+		width: 100%;
+		height: 180px;
+	}
+	
+	.weui-tabbar {
+		position: fixed;
+	}
+	.page__bd{
+		margin-top: 40px;
+	}
+
+/*军事*/
+.weui-panel{
+	margin-bottom: 53px;
+}
